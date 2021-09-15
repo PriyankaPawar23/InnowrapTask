@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">InnowrapTask</string>
+    <string name="heading">Corona Virus</string>
+    <string name="click_to_know_more">click to know more</string>
+    <string name="menu">menu</string>
+    <string name="covid19">Learn more about how we are responding to COVID-19</string>
+    <string name="tellme">Tell me more</string>
+    <string name="visit_page">Visit Page</string>
+</resources>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/CardViewId"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="8dp"
+    android:elevation="4dp"
+
+    android:layout_centerHorizontal="true">
+    <RelativeLayout
+        android:id="@+id/RelativeId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/text2Item1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:padding="4dp"
+            android:textStyle="bold"
+            android:text="@string/app_name"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@mipmap/ic_launcher"
+            android:id="@+id/ImageTrip"
+            android:layout_below="@id/text2Item1"
+            android:scaleType="centerCrop"
+            android:contentDescription="@string/app_name" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:id="@+id/text1Item1"
+            android:layout_below="@id/ImageTrip"
+            android:layout_marginTop="10dp"
+            android:textColor="#000000"
+            android:padding="4dp"
+            android:textSize="12sp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ImageTrip"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="10dp"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@id/text1Item1"
+            app:srcCompat="@drawable/ic_baseline_arrow_forward_24"
+            android:contentDescription="@string/app_name" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
